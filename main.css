@@ -4,7 +4,10 @@ body {
     background: #f2f6e9;
 }
 
+/*----------------------------------------*/
 /*--- navigation bar ---*/
+/*----------------------------------------*/
+
 /*--- colour of the nav bar ---*/
 .navbar {
     background: #6ab446;
@@ -29,6 +32,11 @@ the nav bar, it's responsive and flexible ---*/
 .navbar-collapse {
     justify-content: flex-end;
 }
+
+/*----------------------------------------*/
+/*--- Overlay ---*/
+/*----------------------------------------*/
+
 /*--- This sets the background image. 
 bg-size cover means the bg img is sized to the screen---*/
 .header {
@@ -83,12 +91,17 @@ translate(x,y) is 2D position  ---*/
     color: #000;
 }
 
+/*----------------------------------------*/
+/*Content features*/
+/*----------------------------------------*/
+
+/*--- the padding and margin of the content features ---*/
 .features {
     margin: 4em auto;
     padding: 1em;
     position: relative;
 }
-
+/*--- Seems to does nothing  ---*/
 .features-title {
     color: #333;
     font-size: 1.3rem;
@@ -96,7 +109,7 @@ translate(x,y) is 2D position  ---*/
     margin-bottom: 20px;
     text-transform: uppercase;
 }
-
+/*--- The image's shadows and margin below text ---*/
 .features img {
     -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
@@ -104,29 +117,39 @@ translate(x,y) is 2D position  ---*/
     margin-bottom: 16px;
 }
 
+/*----------------------------------------*/
+/*--- Forms and input box design ---*/
+/*----------------------------------------*/
+
+/*--- The shape and design of the input box ---*/
 .features .form-control,
 .features input {
     border-radius: 0;
 }
-
+/*--- The colour and setting of the submit box ---*/
 .features .btn {
     background-color: #589b37;
     border: 1px solid #589b37;
     color: #fff;
     margin-top: 20px;
 }
-
+/*--- Submit box's hover design and changes. ---*/
 .features .btn:hover {
     background-color: #333;
     border: 1px solid #333;
 }
 
+/*----------------------------------------*/
+/*--- Footer ---*/
+/*----------------------------------------*/
+
+/*--- Background colour of footer and the font colour ---*/
 .page-footer {
     background-color: #222;
     color: #ccc;
     padding: 60px 0 30px;
 }
-
+/*--- Colour and padding position of the copyright footer ---*/
 .footer-copyright {
     color: #666;
     padding: 40px 0;
